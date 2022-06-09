@@ -1,5 +1,5 @@
 const supertest = require('supertest');
-const host = 'https://api.rebill.to/'
+const host = 'https://api.rebill.dev/'
 const request = supertest(host)
 
 const rand = 'test_' + Math.random().toString(16).substr(2, 4) + '_alias';
